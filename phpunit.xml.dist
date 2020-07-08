@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <phpunit colors="true">
+    <testsuites>
+        <testsuite name="ZendSkeletonApplication Test Suite">
+            <directory>./module/Application/test</directory>
+        </testsuite>
+    </testsuites>
+</phpunit> -->
+<phpunit colors="true">
+    <testsuites>
+        <testsuite name="ZendSkeletonApplication Test Suite">
+            <directory>./module/Application/test</directory>
+        </testsuite>
+        <testsuite name="Post">
+            <directory>./module/Post/test</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
